@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>debbc205-a40d-4fa2-8507-c80ab41e62d7</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>293b0aa0-ecb4-486b-9162-387145011512</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{2d16d711-eef4-4629-b0b1-48e36ccdeabb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Views">
+      <UniqueIdentifier>{07b95227-49af-42c0-a609-ede8c55f3728}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.xaml.cpp" />
+    <ClCompile Include="MainPage.xaml.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="Digger.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="ForRentView.xaml.cpp" />
+    <ClCompile Include="RentedView.xaml.cpp" />
+    <ClCompile Include="MachineObjectsContainer.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="DetailView.xaml.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="App.xaml.h" />
+    <ClInclude Include="MainPage.xaml.h" />
+    <ClInclude Include="Digger.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="ForRentView.xaml.h" />
+    <ClInclude Include="RentedView.xaml.h" />
+    <ClInclude Include="MachineObjectsContainer.h">
+      <Filter>Models</Filter>
+    </ClInclude>
+    <ClInclude Include="DetailView.xaml.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\JCBDigger400x400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\KomatsuDigger400x400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\BobcatDigger400x400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\JCBDigger400x400.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\BobcatE19Digger400x400.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\BobcatE45Digger400x400.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\JCBDigger2400x400.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SmartMachinesRenting_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainPage.xaml">
+      <Filter>Views</Filter>
+    </Page>
+    <Page Include="ForRentView.xaml">
+      <Filter>Views</Filter>
+    </Page>
+    <Page Include="RentedView.xaml">
+      <Filter>Views</Filter>
+    </Page>
+    <Page Include="DetailView.xaml">
+      <Filter>Views</Filter>
+    </Page>
+    <Page Include="DetailViewForRented.xaml">
+      <Filter>Views</Filter>
+    </Page>
+  </ItemGroup>
+</Project>
