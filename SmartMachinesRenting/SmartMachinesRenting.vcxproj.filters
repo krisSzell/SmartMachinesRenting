@@ -31,6 +31,7 @@
       <Filter>Models</Filter>
     </ClCompile>
     <ClCompile Include="DetailView.xaml.cpp" />
+    <ClCompile Include="DetailViewForRented.xaml.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -45,6 +46,7 @@
       <Filter>Models</Filter>
     </ClInclude>
     <ClInclude Include="DetailView.xaml.h" />
+    <ClInclude Include="DetailViewForRented.xaml.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\LockScreenLogo.scale-200.png">
@@ -87,6 +89,21 @@
       <Filter>Assets</Filter>
     </Image>
     <Image Include="Assets\JCBDigger2400x400.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\HondaWaterPump.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\PramacPowerGenerator.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\HondaGroundMower.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\HondaLawnmower.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\HondaPowerGenerator.jpg">
       <Filter>Assets</Filter>
     </Image>
   </ItemGroup>

@@ -188,11 +188,16 @@
     <Image Include="Assets\BobcatDigger400x400.png" />
     <Image Include="Assets\BobcatE19Digger400x400.jpg" />
     <Image Include="Assets\BobcatE45Digger400x400.jpg" />
+    <Image Include="Assets\HondaGroundMower.jpg" />
+    <Image Include="Assets\HondaLawnmower.jpg" />
+    <Image Include="Assets\HondaPowerGenerator.jpg" />
+    <Image Include="Assets\HondaWaterPump.jpg" />
     <Image Include="Assets\JCBDigger2400x400.jpg" />
     <Image Include="Assets\JCBDigger400x400.jpg" />
     <Image Include="Assets\JCBDigger400x400.png" />
     <Image Include="Assets\KomatsuDigger400x400.png" />
     <Image Include="Assets\LockScreenLogo.scale-200.png" />
+    <Image Include="Assets\PramacPowerGenerator.jpg" />
     <Image Include="Assets\SplashScreen.scale-200.png" />
     <Image Include="Assets\Square150x150Logo.scale-200.png" />
     <Image Include="Assets\Square44x44Logo.scale-200.png" />

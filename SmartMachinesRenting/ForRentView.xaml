@@ -12,13 +12,13 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
 
-        <GridView Name="MyGridView" Margin="10" Header="Przeglądaj wypożyczone maszyny:" ItemsSource="{x:Bind Diggers}" 
+        <GridView Name="MyGridView" Margin="10" Header="Wybierz maszynę do wypożyczenia:" ItemsSource="{x:Bind Diggers}" 
                   SelectionChanged="MyGridView_SelectionChanged" SelectionMode="Single">
             <GridView.ItemTemplate>
                 <DataTemplate x:DataType="local:Digger">
                     <StackPanel Name="ClickedStackPanel">
                         <TextBlock Text="{x:Bind Name}" Padding="5" Width="100"/>
-                        <Image Source="{x:Bind ImgUrl}" Width="200" Height="200" Stretch="UniformToFill" />
+                        <Image Source="{x:Bind ImgUrl}" Width="200" Height="200" Stretch="Uniform" />
                     </StackPanel>
                 </DataTemplate>
             </GridView.ItemTemplate>
